@@ -22,6 +22,7 @@ public class User {
     @Column(nullable = false)
     private Integer age;
 
+    @Column(nullable = false,unique = true)
     private String email;
 
     private Boolean isAdmin;
