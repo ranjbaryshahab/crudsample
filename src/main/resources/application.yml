@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/crudsample?createDatabaseIfNotExist=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: admin
+    password: '@Admin1234'
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 7788
